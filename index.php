@@ -6,9 +6,9 @@ define('CONTENT_DIR', ROOT_DIR .'content/'); // change this to change which fold
 // It is recommended that you serve strapdown.js locally, rather than from strapdownjs' website:
 // $strapdown_location = "/strapdown.js";
 $default_title = 'My Website';
-$strapdown_location = "http://strapdownjs.com/v/0.2/strapdown.js";
 $bootswatch_theme = "cerulean"; // choose any bootstrap theme included in strapdown.js!
 $file_format = ".txt"; // change this to choose a file type, be sure to include the period
+$strapdown_location = "/strapdown-0.2/strapdown.js";
 
 // Get request url and script url
 $url = '';
